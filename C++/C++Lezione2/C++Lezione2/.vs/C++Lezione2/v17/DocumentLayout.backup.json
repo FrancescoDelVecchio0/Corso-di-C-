@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dbga_075\\Corso-di-C-\\C\u002B\u002B\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{36527D82-8220-46F1-B731-5299D2F723B5}|C\u002B\u002BLezione2\\C\u002B\u002BLezione2.vcxproj|C:\\Users\\dbga_075\\Corso-di-C-\\C\u002B\u002B\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36527D82-8220-46F1-B731-5299D2F723B5}|C\u002B\u002BLezione2\\C\u002B\u002BLezione2.vcxproj|solutionrelative:C\u002B\u002BLezione2\\C\u002B\u002BLezione2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36527D82-8220-46F1-B731-5299D2F723B5}|C\u002B\u002BLezione2\\C\u002B\u002BLezione2.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.38.33130\\INCLUDE\\MEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\memory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\memory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\memory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\memory",
+              "ViewState": "AgIAAHQNAAAAAAAAAAASwIgNAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-21T15:40:11.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "C\u002B\u002BLezione2.cpp",
+              "DocumentMoniker": "C:\\Users\\dbga_075\\Corso-di-C-\\C\u002B\u002B\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2.cpp",
+              "RelativeDocumentMoniker": "C\u002B\u002BLezione2\\C\u002B\u002BLezione2.cpp",
+              "ToolTip": "C:\\Users\\dbga_075\\Corso-di-C-\\C\u002B\u002B\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2\\C\u002B\u002BLezione2.cpp",
+              "RelativeToolTip": "C\u002B\u002BLezione2\\C\u002B\u002BLezione2.cpp",
+              "ViewState": "AgIAADMAAAAAAAAAAAASwFUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-21T14:55:45.256Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,5 +18,25 @@
     <ClCompile Include="C++Lezione1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Arciere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Orco.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Nemico.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Nemico.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Orco.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Arciere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

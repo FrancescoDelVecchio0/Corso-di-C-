@@ -1,0 +1,2 @@
+﻿  lezione9.cpp
+C:\Users\dbga_075\Corso-di-C-\C++\lezione9\lezione9\lezione9\lezione9.cpp(38,11): error C3487: 'int': all return expressions must deduce to the same type: previously it was 'double'

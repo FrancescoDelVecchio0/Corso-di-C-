@@ -1,0 +1,4 @@
+﻿cl : command line  warning D9002: ignoring unknown option '/std:c++23preview'
+  lezione10.cpp
+C:\Users\dbga_075\Corso-di-C-\C++\lezione10\lezione10\lezione10\lezione10.cpp(11,2): warning C4102: 'std': unreferenced label
+  lezione10.vcxproj -> C:\Users\dbga_075\Corso-di-C-\C++\lezione10\lezione10\x64\Debug\lezione10.exe

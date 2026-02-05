@@ -1,0 +1,7 @@
+﻿  lezione8.cpp
+C:\Users\dbga_075\Corso-di-C-\C++\lezione8\lezione8\lezione8\lezione8.cpp(25,15): error C2065: 'pair': undeclared identifier
+C:\Users\dbga_075\Corso-di-C-\C++\lezione8\lezione8\lezione8\lezione8.cpp(25,20): error C2062: type 'int' unexpected
+C:\Users\dbga_075\Corso-di-C-\C++\lezione8\lezione8\lezione8\lezione8.cpp(25,28): error C2059: syntax error: '>'
+C:\Users\dbga_075\Corso-di-C-\C++\lezione8\lezione8\lezione8\lezione8.cpp(25,61): error C2143: syntax error: missing ';' before '{'
+C:\Users\dbga_075\Corso-di-C-\C++\lezione8\lezione8\lezione8\lezione8.cpp(25,61): error C2447: '{': missing function header (old-style formal list?)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\expected(11): warning STL4038: The contents of <expected> are available only with C++23 or later.

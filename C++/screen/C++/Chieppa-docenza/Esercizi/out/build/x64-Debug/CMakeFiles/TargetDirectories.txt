@@ -1,0 +1,3 @@
+C:/Users/crist/Downloads/digital_bros/Esercizi/out/build/x64-Debug/CMakeFiles/Esercizi.dir
+C:/Users/crist/Downloads/digital_bros/Esercizi/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/crist/Downloads/digital_bros/Esercizi/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

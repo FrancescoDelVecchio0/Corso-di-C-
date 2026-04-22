@@ -1,0 +1,51 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/GA_Heal.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/GE_Heal.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/GameplayCues/GC_Heal.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/AnimMonages/AM_Heal.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/AN_SendEvent.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/GE_Heal_OT.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/GameplayCues/GC_Heal_OverTime.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/ThirdPerson/AbilitySystem/GA_Jump.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/7/HR/Y1FAA6FGLE60DFQS02ZWKV.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/2/OR/IHXAC6DN56I2RCX7PV5N0J.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/WorldPartition/LI_Cubes.umap",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/8/54/I3K7JSM6W3SGVGEWKQDXBX.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/5/4F/MHR9NU25PCH49T9ZGYFVC8.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/8/FV/WFYZYKNSI9Z8RCNO6CWLQD.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/9/YY/F0A78YQCXMQ8VFDWTUELUX.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/5/4W/XQWZC1WJYCU0RWRSKLUPBH.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/3/S4/69CEDQ1GHGV0QD0PIEXUIL.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/5/43/94F81CM7T23GWEKKI782VU.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_Cubes/A/CO/FCLLI2O7LZRWCPPBIMMMY5.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/3/2N/90H3Y8I59PDEZLAPQJNF3W.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/A/PL/JV9YN9QVQMGYBJ26Z82I0P.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/WorldPartition/LI_PLA_Cubes.umap",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/1/MM/RG44V9P33FK9DPC0HME62L.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/8/0R/P5QQ2T8YYFXL5KGTHS111I.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/4/JA/VKGKZBHMIEBFK3037ZIV1W.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/5/9V/QVGL742BRJ0TQ149LO4X2Q.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/C/0Y/7IEKRPTQVEB0BQXFYU72CW.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/2/59/B7D25Z1EAP9PJY330UL85Q.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/E/IK/54YPY9W2RI48XE4GUOR69K.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/__ExternalActors__/WorldPartition/LI_PLA_Cubes/E/F7/SJWUF5ZHWSESV0MFZLAD5N.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/WorldPartition/BPP_LI_PLA_Cubes.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/WorldPartition/Ciao.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/WorldPartition/DA_PortaLeva_1.uasset",
+				"C:/Users/dbga_149/Desktop/GASLessons/GASLessons/Content/NinjaLowRightThaiKick_Montage.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/GameplayCues/GC_Test.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/ThirdPerson/Blueprints/DT_Stats_ThirdPersonCharacter.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/NinjaLowRightThaiKick_Montage.uasset",
+				"D:/Progetti/Unreal/GASLessons/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+			]
+		}
+	]
+}

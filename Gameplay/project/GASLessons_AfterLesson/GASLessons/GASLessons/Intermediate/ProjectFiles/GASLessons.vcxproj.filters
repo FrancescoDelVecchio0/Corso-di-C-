@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GASLessons.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GASLessons.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GASLessonsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GASLessons">
+      <UniqueIdentifier>{6E3C5D7B-3E0E-3279-B498-046C6220C4C7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GASLessons\GASLessons.Build.cs">
+      <Filter>Source\GASLessons</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GASLessons\GASLessons.cpp">
+      <Filter>Source\GASLessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASLessons\GASLessons.h">
+      <Filter>Source\GASLessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASLessons\GASLessonsCharacter.cpp">
+      <Filter>Source\GASLessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASLessons\GASLessonsCharacter.h">
+      <Filter>Source\GASLessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASLessons\GASLessonsGameMode.cpp">
+      <Filter>Source\GASLessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GASLessons\GASLessonsGameMode.h">
+      <Filter>Source\GASLessons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

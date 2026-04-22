@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"D:\\Progetti\\DBGA\\GASLessons\\Source\\GASLessons\\GASLessons.Build.cs",
+		"D:\\Progetti\\DBGA\\GASLessons\\Plugins\\GASAttachEditor\\Source\\GASAttachEditor\\GASAttachEditor.Build.cs",
+		"D:\\Progetti\\DBGA\\GASLessons\\Source\\GASLessons.Target.cs",
+		"D:\\Progetti\\DBGA\\GASLessons\\Source\\GASLessonsEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}

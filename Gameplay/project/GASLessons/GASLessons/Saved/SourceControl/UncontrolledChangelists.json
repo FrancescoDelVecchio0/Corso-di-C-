@@ -1,0 +1,16 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Progetti/DBGA/GASLessons/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/GameplayCues/GC_Test.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/ThirdPerson/Blueprints/DT_Stats_ThirdPersonCharacter.uasset",
+				"D:/Progetti/DBGA/GASLessons/Content/NinjaLowRightThaiKick_Montage.uasset",
+				"D:/Progetti/Unreal/GASLessons/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+			]
+		}
+	]
+}

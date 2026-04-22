@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GASLessons",
+			"Path": "..\\Source\\GASLessons.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GASLessonsEditor",
+			"Path": "..\\Source\\GASLessonsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

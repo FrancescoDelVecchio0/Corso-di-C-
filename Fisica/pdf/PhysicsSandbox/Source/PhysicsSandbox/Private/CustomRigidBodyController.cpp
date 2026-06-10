@@ -1,4 +1,5 @@
 #include "CustomRigidBodyController.h"
+#include "CustomRigidbody.h"
 
 #include "Components/InputComponent.h"
 
@@ -16,5 +17,53 @@ void ACustomRigidBodyController::SetupPlayerInputComponent(UInputComponent* InIn
 
 void ACustomRigidBodyController::ApplyForce()
 {
-    // TODO: Fill me!
+	ApplyForceToNativeRigidbody();
+	ApplyForceToCustomRigidbody();
+}
+
+void ACustomRigidBodyController::ApplyForceToNativeRigidbody()
+{
+    if (NativeRigidbody == nullptr)
+    {
+        return;
+    }
+
+    USceneComponent* SceneComponent = NativeRigidbody->GetRootComponent();
+
+    if (SceneComponent == nullptr)
+    {
+        return;
+    }
+
+    UPrimitiveComponent* PrimitiveComponent = Cast<UPrimitiveComponent>(SceneComponent);
+
+    if (PrimitiveComponent == nullptr)
+    {
+        return;
+    }
+
+    const FTransform WorldTransform = PrimitiveComponent->GetComponentTransform();
+    const FVector WorldSpaceApplicationPoint = WorldTransform.TransformPosition(BodySpaceApplicationPoint);
+
+    PrimitiveComponent->AddForceAtLocation(ForceToApply, WorldSpaceApplicationPoint);
+}
+
+void ACustomRigidBodyController::ApplyForceToCustomRigidbody()
+{
+    if (CustomRigidbody == nullptr)
+    {
+        return;
+    }
+
+    UCustomRigidbody* CustomRigidBodyComponent = CustomRigidbody->GetComponentByClass<UCustomRigidbody>();
+
+    if (CustomRigidBodyComponent == nullptr)
+    {
+        return;
+    }
+
+    const FTransform WorldTransform = CustomRigidbody->GetActorTransform();
+    const FVector WorldSpaceApplicationPoint = WorldTransform.TransformPosition(BodySpaceApplicationPoint);
+
+    CustomRigidBodyComponent->AddForceAtLocation(ForceToApply, WorldSpaceApplicationPoint);
 }

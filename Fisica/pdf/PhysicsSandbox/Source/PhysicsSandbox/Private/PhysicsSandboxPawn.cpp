@@ -18,7 +18,30 @@ void APhysicsSandboxPawn::SetupPlayerInputComponent(UInputComponent* InInputComp
 
 void APhysicsSandboxPawn::ApplyForce()
 {
-    // TODO: Fill me!
+    if (PhysicsActor == nullptr)
+    {
+        return;
+    }
+
+    USceneComponent* SceneComponent = PhysicsActor->GetRootComponent();
+
+    if (SceneComponent == nullptr)
+    {
+        return;
+    }
+
+    UPrimitiveComponent* PrimitiveComponent = Cast<UPrimitiveComponent>(SceneComponent);
+
+    if (PrimitiveComponent == nullptr)
+    {
+        return;
+    }
+
+    const FTransform WorldTransform = PrimitiveComponent->GetComponentTransform();
+    const FVector WorldSpaceApplicationPoint = WorldTransform.TransformPosition(BodySpaceApplicationPoint);
+
+    PrimitiveComponent->AddForceAtLocation(ForceToApply, WorldSpaceApplicationPoint);
+    PrimitiveComponent->AddTorqueInRadians(TorqueToApply);
 }
 
 void APhysicsSandboxPawn::Tick(float DeltaTime)
@@ -65,8 +88,8 @@ void APhysicsSandboxPawn::Tick(float DeltaTime)
     const FVector LinearVelocity = PrimitiveComponent->GetPhysicsLinearVelocity();
     const FVector AngularVelocity = PrimitiveComponent->GetPhysicsAngularVelocityInRadians();
 
-    DrawDebugDirectionalArrow(GetWorld(), WorldSpaceApplicationPoint, WorldSpaceApplicationPoint + LinearVelocity * VelocityDrawScale, 10.f, FColor::Green, false, -1.f, SDPG_Foreground);
-    DrawDebugDirectionalArrow(GetWorld(), WorldSpaceApplicationPoint, WorldSpaceApplicationPoint + AngularVelocity * AngularVelocityDrawScale, 10.f, FColor::Blue, false, -1.f, SDPG_Foreground);
+    DrawDebugDirectionalArrow(GetWorld(), CoM, CoM + LinearVelocity * VelocityDrawScale, 10.f, FColor::Green, false, -1.f, SDPG_Foreground);
+    DrawDebugDirectionalArrow(GetWorld(), CoM, CoM + AngularVelocity * AngularVelocityDrawScale, 10.f, FColor::Blue, false, -1.f, SDPG_Foreground);
 
 #endif // ENABLE_DRAW_DEBUG
 }

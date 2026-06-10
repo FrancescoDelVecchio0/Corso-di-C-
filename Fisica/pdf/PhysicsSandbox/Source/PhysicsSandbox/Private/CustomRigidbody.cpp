@@ -9,12 +9,28 @@ void UCustomRigidbody::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-    // TODO: Fill me!
+    AActor* Owner = GetOwner();
+
+    const FTransform OwnerTransform = Owner->GetActorTransform();
+
+    Position = OwnerTransform.GetLocation();
+    Rotation = OwnerTransform.GetRotation();
+
+    Integrate(DeltaTime);
+
+    const FTransform NewTransform = FTransform(Rotation, Position);
+
+    Owner->SetActorTransform(NewTransform);
 }
 
 void UCustomRigidbody::AddForceAtLocation(const FVector& InForce, const FVector& InAppPoint)
 {
-    // TODO: Fill me!
+    ForceToApply += InForce;
+
+    const FVector Arm = InAppPoint - Position;
+    const FVector Torque = FVector::CrossProduct(Arm, InForce);
+
+    TorqueToApply += Torque;
 }
 
 FMatrix CalculateInertiaTensorMatrix(const FQuat& InRotation, const FVector& InInertiaTensor, const FQuat& InInertiaTensorRotation)
@@ -32,5 +48,23 @@ FMatrix CalculateInertiaTensorMatrix(const FQuat& InRotation, const FVector& InI
 
 void UCustomRigidbody::Integrate(float InDeltaTime)
 {
-    // TODO: Fill me!
+    LinearAcceleration = ForceToApply / FMath::Max(KINDA_SMALL_NUMBER, Mass);
+
+    const FMatrix InertiaTensorMatrix = CalculateInertiaTensorMatrix(Rotation, InertiaTensor * Mass * 10000.f, FQuat::Identity);
+    AngularAcceleration = InertiaTensorMatrix.InverseTransformVector(TorqueToApply);
+
+    // Integrate velocities.
+
+    LinearVelocity += LinearAcceleration * InDeltaTime;
+    AngularVelocity += AngularAcceleration * InDeltaTime;
+
+    // Integrate position and rotation.
+
+    Position += LinearVelocity * InDeltaTime;
+
+    const FQuat DeltaRot = FQuat(AngularVelocity.X, AngularVelocity.Y, AngularVelocity.Z, 0.f) * Rotation * 0.5f * InDeltaTime;
+    Rotation += DeltaRot;
+
+    ForceToApply = FVector::ZeroVector;
+    TorqueToApply = FVector::ZeroVector;
 }

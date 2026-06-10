@@ -9,6 +9,18 @@ class PHYSICSSANDBOX_API ACustomRigidBodyController : public APawn
 {
 	GENERATED_BODY()
 
+private:
+
+	UPROPERTY(EditAnywhere, Category = "Target")
+	AActor*		NativeRigidbody = nullptr;
+	UPROPERTY(EditAnywhere, Category = "Target")
+	AActor*		CustomRigidbody = nullptr;
+
+	UPROPERTY(EditAnywhere, Category = "Force")
+	FVector		ForceToApply = FVector::ZeroVector;
+	UPROPERTY(EditAnywhere, Category = "Force")
+	FVector		BodySpaceApplicationPoint = FVector::ZeroVector;
+
 public:
 
 	ACustomRigidBodyController();
@@ -18,4 +30,7 @@ public:
 private:
 
 	void ApplyForce();
+
+	void ApplyForceToNativeRigidbody();
+	void ApplyForceToCustomRigidbody();
 };
